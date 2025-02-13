@@ -40,3 +40,155 @@
     top: 50%;
     padding: 1.5rem;
 }
+/*----------------------DISCOGRAFIA------------------------*/
+
+.cajadiscografia{
+    display: flex;
+    flex-direction: column;
+}
+.cajadiscografia img{
+    width: 300px;
+    height: 300px;
+}
+.cajaalbum1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40% 40%;
+    grid-template-areas: 
+    "tapa texto texto"
+    "tapa audio audio";
+    margin: 4px;
+    border: 3px groove black;
+}
+.cajaalbum2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40% 40%;
+    grid-template-areas: 
+    "tapa texto texto"
+    "tapa audio audio";
+    margin: 4px;
+    border: 3px groove black;
+}
+.cajaalbum3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40% 40%;
+    grid-template-areas: 
+    "tapa texto texto"
+    "tapa audio audio";
+    margin: 4px;
+    border: 3px groove black;
+}
+.cajaalbum4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40% 40%;
+    grid-template-areas: 
+    "tapa texto texto"
+    "tapa audio audio";
+    margin: 4px;
+    border: 3px groove black;
+}
+.cajaalbum5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40% 40%;
+    grid-template-areas: 
+    "tapa texto texto"
+    "tapa audio audio";
+    margin: 4px;
+    border: 3px groove black;
+}
+.cajaalbum6{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40% 40%;
+    grid-template-areas: 
+    "tapa texto texto"
+    "tapa audio audio";
+    margin: 4px;
+    border: 3px groove black;
+}
+.cajaalbum7{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40% 40%;
+    grid-template-areas: 
+    "tapa texto texto"
+    "tapa audio audio";
+    margin: 4px;
+    border: 3px groove black;
+}
+
+.cajaalbum8{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40% 40%;
+    grid-template-areas: 
+    "tapa texto texto"
+    "tapa audio audio";
+    margin: 4px;
+    border: 3px groove black;
+}
+.cajaalbum9{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40% 40%;
+    grid-template-areas: 
+    "tapa texto texto"
+    "tapa audio audio";
+    margin: 4px;
+    border: 3px groove black;
+}
+.cajaalbum10{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40% 40%;
+    grid-template-areas: 
+    "tapa texto texto"
+    "tapa audio audio";
+    margin: 4px;
+    border: 3px groove black;
+}
+.cajaalbum11{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40% 40%;
+    grid-template-areas: 
+    "tapa texto texto"
+    "tapa audio audio";
+    margin: 4px;
+    border: 3px groove black;
+}
+.cajaalbum12{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40% 40%;
+    grid-template-areas: 
+    "tapa texto texto"
+    "tapa audio audio";
+    margin: 4px;
+    border: 3px groove black;
+}
+.cajaalbum13{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40% 40%;
+    grid-template-areas: 
+    "tapa texto texto"
+    "tapa audio audio";
+    margin: 4px;
+    border: 3px groove black;
+}
+.tapa{
+    grid-area: tapa;
+}
+.texto{
+    grid-area: texto;
+    text-align: center;
+    padding-top: 5%;
+}
+.audio{
+    grid-area: audio;
+}
