@@ -192,3 +192,51 @@
 .audio{
     grid-area: audio;
 }
+
+/*------Media queries-----*/
+/*--MOVIL--*/
+@media (max-width:500px){
+    .cajadiscografia img{
+        width: 150px;
+        height: 150px;
+    }
+    .cajaalbum1{
+        height: 158px;
+    }
+    .cajaalbum2{
+        height: 158px;
+    }
+    .cajaalbum3{
+        height: 158px;
+    }
+    .cajaalbum4{
+        height: 158px;
+    }
+    .cajaalbum5{
+        height: 158px;
+    }
+    .cajaalbum6{
+        height: 158px;
+    }
+    .cajaalbum7{
+        height: 158px;
+    }
+    .cajaalbum8{
+        height: 158px;
+    }
+    .cajaalbum9{
+        height: 158px;
+    }
+    .cajaalbum10{
+        height: 158px;
+    }
+    .cajaalbum11{
+        height: 158px;
+    }
+    .cajaalbum12{
+        height: 158px;
+    }
+    .cajaalbum13{
+        height: 158px;
+    }
+}
