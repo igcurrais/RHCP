@@ -45,6 +45,7 @@
 .cajadiscografia{
     display: flex;
     flex-direction: column;
+    background-color: black;
 }
 .cajadiscografia img{
     width: 300px;
@@ -199,7 +200,7 @@
     .cajadiscografia img{
         width: 150px;
         height: 150px;
-        
+
     }
     .cajaalbum1{
         height: 158px;
