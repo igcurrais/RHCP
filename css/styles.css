@@ -199,45 +199,59 @@
     .cajadiscografia img{
         width: 150px;
         height: 150px;
+        
     }
     .cajaalbum1{
         height: 158px;
+        grid-template-rows: 60% 40%;
     }
     .cajaalbum2{
         height: 158px;
+        grid-template-rows: 60% 40%;
     }
     .cajaalbum3{
         height: 158px;
+        grid-template-rows: 60% 40%;
     }
     .cajaalbum4{
         height: 158px;
+        grid-template-rows: 60% 40%;
     }
     .cajaalbum5{
         height: 158px;
+        grid-template-rows: 60% 40%;
     }
     .cajaalbum6{
         height: 158px;
+        grid-template-rows: 60% 40%;
     }
     .cajaalbum7{
         height: 158px;
+        grid-template-rows: 60% 40%;
     }
     .cajaalbum8{
         height: 158px;
+        grid-template-rows: 60% 40%;
     }
     .cajaalbum9{
         height: 158px;
+        grid-template-rows: 60% 40%;
     }
     .cajaalbum10{
         height: 158px;
+        grid-template-rows: 60% 40%;
     }
     .cajaalbum11{
         height: 158px;
+        grid-template-rows: 60% 40%;
     }
     .cajaalbum12{
         height: 158px;
+        grid-template-rows: 60% 40%;
     }
     .cajaalbum13{
         height: 158px;
+        grid-template-rows: 60% 40%;
     }
     .audio{
         width: 90%;
