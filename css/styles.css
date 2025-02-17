@@ -113,6 +113,7 @@
 /*------Media queries-----*/
 /*--MOVIL--*/
 @media (max-width:500px){
+    /*-------DISCOGRAFIA--------------*/
     .cajadiscografia img{
         max-width: 300px;
         max-height: 300px;
@@ -139,8 +140,10 @@
         position: absolute;
         color: aliceblue;
         font-family: "Rock Salt", serif;
-        font-weight: 40;
-        background-color: rgba(12, 12, 12, 0.5);
+        font-weight: 400;
+        background-color: rgba(12, 12, 12, 0.8);
         top: 30%;
     }
+
+
 }
