@@ -2,7 +2,11 @@
     font-family: "Rock Salt", serif;
     font-weight: 400;
     font-style: normal;
-} */
+} 
+    font-family: "Oregano", serif;
+  font-weight: 400;
+  font-style: italic;
+  */
 /*reset css*/
 *{
     margin: 0;
@@ -114,7 +118,8 @@
 .contenedor-historia{
     display: flex;
     flex-direction: column;
-    max-width: 80%;
+    max-width: 100%;
+    background-color: black;
 }
 .cantante{
     display: flex;
@@ -125,31 +130,37 @@
 .flea{
     display: flex;
     flex-direction: row;
-    align-self: flex-end;
     max-width: 100%;
+    padding-right: 5%;
+    justify-content: space-between;
 }
 .chad{
     display: flex;
     flex-direction: row;
-    margin-left: 5%;
+    padding-left: 5%;
+    padding-right: 25%;
     max-width: 100%;
+    justify-content: space-between;
 }
 .guitarra{
     display: flex;
     flex-direction: row;
-    align-self: flex-end;
     max-width: 100%;
+    padding-right: 5%;
 }
 .contenedor-historia div p{
+    font-family: "Oregano", serif;
+    font-weight: 1000;
+    font-style: italic;
+    font-size: larger;
+    color: aliceblue;
     align-self: center;
     justify-content: center;
-    margin-left: 30%;
 
 }
 .banda-info{
     align-self: center;
     justify-self: center;
-    margin-right: 40%;
 }
 
 
