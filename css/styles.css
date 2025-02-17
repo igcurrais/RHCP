@@ -110,6 +110,52 @@
 .bajoyvoz{
     grid-area: bajovoz;
 }
+/*---------------------HISTORIA--------------------------------------*/
+.contenedor-historia{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+}
+.cantante{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    max-width: 100%;
+}
+.flea{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    max-width: 100%;
+}
+.chad{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    max-width: 100%;
+}
+.guitarra{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    max-width: 100%;
+}
+.contenedor-historia div p{
+    align-self: center;
+    justify-content: center;
+    margin-left: 30%;
+
+}
+.banda-info{
+    align-self: center;
+    justify-self: center;
+    margin-right: 40%;
+}
+
+
+
+
+
 /*------Media queries-----*/
 /*--MOVIL--*/
 @media (max-width:500px){
@@ -144,6 +190,7 @@
         background-color: rgba(12, 12, 12, 0.8);
         top: 30%;
     }
+    /*---------------------HISTORIA--------------------------------------*/
 
 
 }
