@@ -53,67 +53,7 @@
     max-width: 300px;
     max-height: 300px;
 }
-.cajaalbum1{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 40% 40%;
-    grid-template-areas: 
-    "tapa texto texto"
-    "tapa audio audio";
-    margin: 4px;
-    border: 3px groove black;
-}
-.cajaalbum2{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 40% 40%;
-    grid-template-areas: 
-    "tapa texto texto"
-    "tapa audio audio";
-    margin: 4px;
-    border: 3px groove black;
-}
-.cajaalbum3{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 40% 40%;
-    grid-template-areas: 
-    "tapa texto texto"
-    "tapa audio audio";
-    margin: 4px;
-    border: 3px groove black;
-}
-.cajaalbum4{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 40% 40%;
-    grid-template-areas: 
-    "tapa texto texto"
-    "tapa audio audio";
-    margin: 4px;
-    border: 3px groove black;
-}
-.cajaalbum5{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 40% 40%;
-    grid-template-areas: 
-    "tapa texto texto"
-    "tapa audio audio";
-    margin: 4px;
-    border: 3px groove black;
-}
-.cajaalbum6{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 40% 40%;
-    grid-template-areas: 
-    "tapa texto texto"
-    "tapa audio audio";
-    margin: 4px;
-    border: 3px groove black;
-}
-.cajaalbum7{
+.cajaalbum{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 40% 40%;
@@ -124,66 +64,6 @@
     border: 3px groove black;
 }
 
-.cajaalbum8{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 40% 40%;
-    grid-template-areas: 
-    "tapa texto texto"
-    "tapa audio audio";
-    margin: 4px;
-    border: 3px groove black;
-}
-.cajaalbum9{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 40% 40%;
-    grid-template-areas: 
-    "tapa texto texto"
-    "tapa audio audio";
-    margin: 4px;
-    border: 3px groove black;
-}
-.cajaalbum10{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 40% 40%;
-    grid-template-areas: 
-    "tapa texto texto"
-    "tapa audio audio";
-    margin: 4px;
-    border: 3px groove black;
-}
-.cajaalbum11{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 40% 40%;
-    grid-template-areas: 
-    "tapa texto texto"
-    "tapa audio audio";
-    margin: 4px;
-    border: 3px groove black;
-}
-.cajaalbum12{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 40% 40%;
-    grid-template-areas: 
-    "tapa texto texto"
-    "tapa audio audio";
-    margin: 4px;
-    border: 3px groove black;
-}
-.cajaalbum13{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 40% 40%;
-    grid-template-areas: 
-    "tapa texto texto"
-    "tapa audio audio";
-    margin: 4px;
-    border: 3px groove black;
-}
 .tapa{
     grid-area: tapa;
 }
@@ -234,93 +114,21 @@
 /*--MOVIL--*/
 @media (max-width:500px){
     .cajadiscografia img{
-        max-width: 150px;
-        max-height: 150px;
+        max-width: 300px;
+        max-height: 300px;
 
     }
     .cajadiscografia{
-        padding-left: 25%;
-        padding-right: 25%;
         align-items: center;
     }
-    .cajaalbum1{
+    .cajaalbum{
         display: flex;
         position: relative;
-        max-width: 150px;
-        max-height: 150px;
+        max-width: 300px;
+        max-height: 300px;
+        justify-content: center;
     }
-    .cajaalbum2{
-        display: flex;
-        position: relative;
-        max-width: 150px;
-        max-height: 150px;
-    }
-    .cajaalbum3{
-        display: flex;
-        position: relative;
-        max-width: 150px;
-        max-height: 150px;
-    }
-    .cajaalbum4{
-        display: flex;
-        position: relative;
-        max-width: 150px;
-        max-height: 150px;
-    }
-    .cajaalbum5{
-        display: flex;
-        position: relative;
-        max-width: 150px;
-        max-height: 150px;
-    }
-    .cajaalbum6{
-        display: flex;
-        position: relative;
-        max-width: 150px;
-        max-height: 150px;
-    }
-    .cajaalbum7{
-        display: flex;
-        position: relative;
-        max-width: 150px;
-        max-height: 150px;
-    }
-    .cajaalbum8{
-        display: flex;
-        position: relative;
-        max-width: 150px;
-        max-height: 150px;
-    }
-    .cajaalbum9{
-        display: flex;
-        position: relative;
-        max-width: 150px;
-        max-height: 150px;
-    }
-    .cajaalbum10{
-        display: flex;
-        position: relative;
-        max-width: 150px;
-        max-height: 150px;
-    }
-    .cajaalbum11{
-        display: flex;
-        position: relative;
-        max-width: 150px;
-        max-height: 150px;
-    }
-    .cajaalbum12{
-        display: flex;
-        position: relative;
-        max-width: 150px;
-        max-height: 150px;
-    }
-    .cajaalbum13{
-        display: flex;
-        position: relative;
-        max-width: 150px;
-        max-height: 150px;
-    }
+    
     .audio{
         width: 100%;
         position: absolute;
@@ -333,5 +141,6 @@
         font-family: "Rock Salt", serif;
         font-weight: 400;
         background-color: rgba(12, 12, 12, 0.5);
+
     }
 }
