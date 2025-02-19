@@ -26,24 +26,33 @@
 }
 /*--------------INDEX---------------------*/
 .box-principal{
+    background-image: url(../media/img1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    align-items: center;
 
 }
-.box-principal img{
-    position: relative;
-    width: 100%;
-}
+
 .box-principal h2{
-    position: absolute;
     font-family: "Rock Salt", serif;
-    font-weight: 40%;
+    font-weight: 100%;
     color: rgb(255, 255, 255);
-    background-color: rgba(128, 128, 128, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     top: 50%;
-    padding: 1.5rem;
+    padding: 1rem;
+}
+.box-principal p{
+    font-family: "Oregano", serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10%;
 }
 /*---FOOTER-----*/
 .caja-footer{
@@ -134,7 +143,7 @@
 .bajoyvoz{
     grid-area: bajovoz;
 }
-/*---------------------HISTORIA--------------------------------------*/
+/*---------------------INTEGRANTES--------------------------------------*/
 .contenedor-historia{
     display: flex;
     flex-direction: column;
