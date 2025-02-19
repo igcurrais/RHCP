@@ -24,6 +24,7 @@
     width: 10rem;   
 
 }
+/*--------------INDEX---------------------*/
 .box-principal{
     display: flex;
     align-items: center;
@@ -43,6 +44,25 @@
     background-color: rgba(128, 128, 128, 0.2);
     top: 50%;
     padding: 1.5rem;
+}
+/*---FOOTER-----*/
+.caja-footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rosybrown;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+}   
+.redes{
+    padding: 20%;
+    max-width: 4.5rem;
+    max-height: 4.5rem;
+}
+.marca{
+    background-color: rosybrown;
+    text-align: center;
+    
 }
 /*----------------------DISCOGRAFIA------------------------*/
 
