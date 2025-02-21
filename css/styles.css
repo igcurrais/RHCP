@@ -268,5 +268,11 @@
     .box-principal h2{
         font-size: medium;
     }
-
+    /*----------------eventos----------------------*/
+    .cartas1{
+        flex-direction: column;
+    }
+    .cartas2{
+        flex-direction: column;
+    }
 }
