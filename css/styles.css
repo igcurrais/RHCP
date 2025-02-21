@@ -41,7 +41,7 @@
     font-weight: 400;
     font-size: xx-large;
     color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
     top: 50%;
     padding: 1rem;
 }
@@ -52,7 +52,7 @@
     font-size: 2rem;
     color: white;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10%;
 }
 /*--------------------FOOTER--------------------*/
@@ -229,7 +229,7 @@
         color: aliceblue;
         font-family: "Rock Salt", serif;
         font-weight: 400;
-        background-color: rgba(12, 12, 12, 0.8);
+        background-color: rgba(12, 12, 12, 0.5 );
         top: 30%;
     }
     /*---------------------index--------------------------------------*/
