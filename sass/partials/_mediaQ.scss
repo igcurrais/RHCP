@@ -1,6 +1,11 @@
 @import "variables";
-/*---------discografia----*/
+
 @media (max-width:500px){
+    /*---------header----------*/
+    .nav-link:hover{
+        display: none;
+    }
+    /*---------discografia----*/
     .cajadiscografia{
         align-items: center;
         .cajaalbum{
