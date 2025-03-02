@@ -1,46 +1,47 @@
 @import "variables";
 /*---------discografia----*/
-
-cajadiscografia{
-    align-items: center;
-    cajaalbum{
-        display: flex;
-        position: relative;
-        max-width: 300px;
-        max-height: 300px;
-        justify-content: center;
-        img{
+@media (max-width:500px){
+    .cajadiscografia{
+        align-items: center;
+        .cajaalbum{
+            display: flex;
+            position: relative;
             max-width: 300px;
-            max-height: 300px;     
-        }
-        audio{
-            width: 100%;
-            position: absolute;
-            bottom: 0%;
-        }
-        texto{
-            position: absolute;
-            color: aliceblue;
-            font-family: $fuenteTitulos;
-            font-weight: 400;
-            background-color: rgba(12, 12, 12, 0.5 );
-            top: 30%;
+            max-height: 300px;
+            justify-content: center;
+            img{
+                max-width: 300px;
+                max-height: 300px;     
+            }
+            .audio{
+                width: 100%;
+                position: absolute;
+                bottom: 0%;
+            }
+            .texto{
+                position: absolute;
+                color: aliceblue;
+                font-family: $fuenteTitulos;
+                font-weight: 400;
+                background-color: rgba(12, 12, 12, 0.5 );
+                top: 30%;
+            }
         }
     }
-}
 /*----index----------*/
-box-principal{
-    background-image: url(../media/FONDOindex.jpg);
-    background-size: 100% auto;
-    background-repeat: round;
-    h1{
-        font-size: medium;
+    .box-principal{
+        background-image: url(../media/FONDOindex.jpg);
+        background-size: 100% auto;
+        background-repeat: round;
+        h1{
+            font-size: medium;
+        }
     }
-}
 /*------eventos---------*/
-cartas1{
-    flex-direction: column;
-}
-cartas2{
-    flex-direction: column;
+    .cartas1{
+        flex-direction: column;
+    }
+    .cartas2{
+        flex-direction: column;
+    }
 }

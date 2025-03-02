@@ -1,16 +1,16 @@
 
 
 
-
+@use "partials/generales";
 /*----navbar----*/
 @use "partials/header";
-
-/* -----------------index--------------*/
-@use "partials/index"; 
 
 /*--- FOOTER-------*/
 @use "partials/footer";
 
+/* -----------------index--------------*/
+
+@use "partials/index"; 
 /*-----DISCOGRAFIA---------*/
 @use "partials/discografia";
 

@@ -1,5 +1,5 @@
 @import "variables";
-contenedor-historia{
+.contenedor-historia{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -14,18 +14,18 @@ contenedor-historia{
         align-self: center;
         justify-content: center;  
     }
-    banda-info{
+    .banda-info{
         align-self: center;
         justify-self: center;
     }
-    cantante{
+    .cantante{
         display: flex;
         flex-direction: row;
         padding-left: 5%;
         max-width: 100%;
         margin-right: 15%;
     }
-    flea{
+    .flea{
         display: flex;
         flex-direction: row;
         max-width: 100%;
@@ -33,7 +33,7 @@ contenedor-historia{
         margin-left: 15%;
         justify-content: space-between; 
     }
-    chad{
+    .chad{
         display: flex;
         flex-direction: row;
         margin-left: 5%;
@@ -41,7 +41,7 @@ contenedor-historia{
         max-width: 100%;
         justify-content: space-between;
     }
-    guitarra{
+    .guitarra{
         display: flex;
         flex-direction: row;
         max-width: 100%;

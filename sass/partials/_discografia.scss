@@ -1,11 +1,11 @@
 @import "variables";
-cajadiscografia{
+.cajadiscografia{
     display: flex;
     flex-direction: column;
     background-color: rgb(0, 0, 0);
     padding-left: 10%;
     padding-right: 10%;
-    cajaalbum{
+    .cajaalbum{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 40% 40%;
@@ -18,10 +18,10 @@ cajadiscografia{
             max-width: 300px;
             max-height: 300px;  
         }
-        tapa{
+        .tapa{
             grid-area: tapa;  
         }
-        texto{
+        .texto{
             color: aliceblue;
             font-family: $fuenteTitulos;
             font-weight: 400;
@@ -30,7 +30,7 @@ cajadiscografia{
             text-align: center;
             padding-top: 5%;
         }
-        audio{
+        .audio{
             grid-area: audio; 
         }
     }

@@ -1,20 +1,18 @@
-footer{
-    caja-footer{
-        display: flex;
-        flex-direction: row;
-        background-color: black;
-        height: fit-content;
-        align-items: center;
-        justify-content: center;
-        redes{
-            padding: 20%;
-            max-width: 4.5rem;
-            max-height: 4.5rem;
-        }
+.caja-footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    .redes{
+        padding: 20%;
+        max-width: 4.5rem;
+        max-height: 4.5rem;
     }
-    marca{
-        background-color: black;
-        text-align: center;
-        color: white;
-    }
+}
+.marca{
+    background-color: black;
+    text-align: center;
+    color: white;
 }
