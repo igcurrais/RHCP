@@ -243,6 +243,24 @@
   .cartas2 {
     flex-direction: column;
   }
+  /*-----------integrantes------------------*/
+  .contenedor-historia {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .contenedor-historia p {
+    font-size: smaller;
+  }
+  .contenedor-historia img {
+    max-width: 100%;
+    max-height: auto;
+  }
+  .contenedor-historia .cantante, .contenedor-historia .guitarra, .contenedor-historia .chad, .contenedor-historia .flea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

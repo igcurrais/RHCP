@@ -44,4 +44,28 @@
     .cartas2{
         flex-direction: column;
     }
+    /*-----------integrantes------------------*/
+    .contenedor-historia{
+        padding-left: 0%;
+        padding-right: 0%;
+        p{
+            font-size: smaller;
+        }
+        img{
+            max-width: 100%;
+            max-height: auto;
+        }
+        .cantante{
+            @include flex(column,center,center);           
+        }
+        .flea{
+            @extend .cantante;
+        }
+        .chad{
+            @extend .cantante;
+        }
+        .guitarra{
+            @extend .cantante;
+        }
+    }
 }
