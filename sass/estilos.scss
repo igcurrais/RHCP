@@ -1,0 +1,25 @@
+
+
+
+
+/*----navbar----*/
+@use "partials/header";
+
+/* -----------------index--------------*/
+@use "partials/index"; 
+
+/*--- FOOTER-------*/
+@use "partials/footer";
+
+/*-----DISCOGRAFIA---------*/
+@use "partials/discografia";
+
+/*---------GALERIA----------------*/
+@use "partials/galeria";
+/*-------------INTEGRANTES-----------------*/
+@use "partials/integrantes";
+/*-----------EVENTOS------------------*/
+@use "partials/eventos";
+
+/*----MEDIA queries-----------*/
+@use "partials/mediaQ";

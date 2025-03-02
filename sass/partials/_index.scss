@@ -1,0 +1,29 @@
+@import "variables";
+box-principal{
+    background-image: url(../media/img1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1{
+        font-family: $fuenteTitulos;
+        font-weight: 400;
+        font-size: xx-large;
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 50%;
+        padding: 1rem;
+    }
+    p{
+        font-family: $fuenteTextos;
+        font-weight: 500;
+        font-style: oblique;
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10%;  
+    }
+}

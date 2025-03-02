@@ -1,0 +1,249 @@
+/*----navbar----*/
+header navbar navbar-brand img {
+  width: 10rem;
+}
+header navbar navbar-nav nav-link {
+  font-family: "Rock Salt", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* -----------------index--------------*/
+box-principal {
+  background-image: url(../media/img1.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+box-principal h1 {
+  font-family: "Rock Salt", serif;
+  font-weight: 400;
+  font-size: xx-large;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 50%;
+  padding: 1rem;
+}
+box-principal p {
+  font-family: "Oregano", serif;
+  font-weight: 500;
+  font-style: oblique;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10%;
+}
+
+/*--- FOOTER-------*/
+footer caja-footer {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  height: fit-content;
+  align-items: center;
+  justify-content: center;
+}
+footer caja-footer redes {
+  padding: 20%;
+  max-width: 4.5rem;
+  max-height: 4.5rem;
+}
+footer marca {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+/*-----DISCOGRAFIA---------*/
+cajadiscografia {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+cajadiscografia cajaalbum {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 40% 40%;
+  grid-template-areas: "tapa texto texto" "tapa audio audio";
+  margin: 4px;
+  border: 3px groove black;
+}
+cajadiscografia cajaalbum img {
+  max-width: 300px;
+  max-height: 300px;
+}
+cajadiscografia cajaalbum tapa {
+  grid-area: tapa;
+}
+cajadiscografia cajaalbum texto {
+  color: aliceblue;
+  font-family: "Rock Salt", serif;
+  font-weight: 400;
+  background-color: rgba(12, 12, 12, 0.5);
+  grid-area: texto;
+  text-align: center;
+  padding-top: 5%;
+}
+cajadiscografia cajaalbum audio {
+  grid-area: audio;
+}
+
+/*---------GALERIA----------------*/
+caja-fotos {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3, 1fr;
+  grid-template-areas: "calle calle" "pintura bajista" "bajovoz bajovoz";
+}
+caja-fotos img {
+  max-width: 100%;
+  max-height: 100%;
+}
+caja-fotos calle {
+  grid-area: calle;
+}
+caja-fotos bajo {
+  grid-area: bajista;
+}
+caja-fotos pintura {
+  grid-area: pintura;
+}
+caja-fotos bajoyvoz {
+  grid-area: bajovoz;
+}
+
+/*-------------INTEGRANTES-----------------*/
+contenedor-historia {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 100%;
+  background-color: black;
+}
+contenedor-historia p {
+  font-family: "Oregano", serif;
+  font-weight: 1000;
+  font-style: italic;
+  font-size: larger;
+  color: aliceblue;
+  align-self: center;
+  justify-content: center;
+}
+contenedor-historia banda-info {
+  align-self: center;
+  justify-self: center;
+}
+contenedor-historia cantante {
+  display: flex;
+  flex-direction: row;
+  padding-left: 5%;
+  max-width: 100%;
+  margin-right: 15%;
+}
+contenedor-historia flea {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  padding-right: 5%;
+  margin-left: 15%;
+  justify-content: space-between;
+}
+contenedor-historia chad {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-right: 15%;
+  max-width: 100%;
+  justify-content: space-between;
+}
+contenedor-historia guitarra {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  margin-left: 15%;
+  padding-right: 5%;
+}
+
+/*-----------EVENTOS------------------*/
+cartas1 {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: center;
+}
+cartas1 card {
+  margin: 2rem;
+  border: 2px solid white;
+  background-color: black;
+}
+cartas1 card card-text {
+  color: aliceblue;
+}
+cartas1 card card-img-top {
+  max-width: 100%;
+}
+
+cartas2 {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: center;
+}
+
+/*----MEDIA queries-----------*/
+/*---------discografia----*/
+cajadiscografia {
+  align-items: center;
+}
+cajadiscografia cajaalbum {
+  display: flex;
+  position: relative;
+  max-width: 300px;
+  max-height: 300px;
+  justify-content: center;
+}
+cajadiscografia cajaalbum img {
+  max-width: 300px;
+  max-height: 300px;
+}
+cajadiscografia cajaalbum audio {
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+}
+cajadiscografia cajaalbum texto {
+  position: absolute;
+  color: aliceblue;
+  font-family: "Rock Salt", serif;
+  font-weight: 400;
+  background-color: rgba(12, 12, 12, 0.5);
+  top: 30%;
+}
+
+/*----index----------*/
+box-principal {
+  background-image: url(../media/FONDOindex.jpg);
+  background-size: 100% auto;
+  background-repeat: round;
+}
+box-principal h1 {
+  font-size: medium;
+}
+
+/*------eventos---------*/
+cartas1 {
+  flex-direction: column;
+}
+
+cartas2 {
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=estilos.css.map */

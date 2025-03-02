@@ -1,0 +1,23 @@
+cartas1{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    card{
+        margin: 2rem;
+        border: 2px solid white;
+        background-color: black;
+        card-text{
+            color: aliceblue;
+        }
+        card-img-top{
+            max-width: 100%;
+        }
+    }
+}
+cartas2{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+}
