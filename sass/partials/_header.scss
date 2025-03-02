@@ -4,11 +4,11 @@
     font-family: $fuenteTitulos;
     font-weight: 400;
     font-style: normal;
+    &:hover{
+        transform: scale(1.5) rotate(-20deg);
+    }
 }
-.nav-link:hover{
-    transform: scale(3);
 
-}
 .logo{
     width: 10rem;
 }
