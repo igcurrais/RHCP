@@ -134,8 +134,8 @@
 .contenedor-historia {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   padding-left: 15%;
   padding-right: 15%;
   background-color: black;
@@ -181,8 +181,9 @@
 .cartas1, .cartas2 {
   display: flex;
   flex-direction: row;
-  background-color: black;
+  align-items: none;
   justify-content: center;
+  background-color: black;
 }
 .cartas1 .card, .cartas2 .card {
   margin: 2rem;

@@ -1,9 +1,6 @@
 @import "variables";
 .contenedor-historia{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex(column,center,center);
     padding-left: 15%;
     padding-right: 15%;
     background-color: black;

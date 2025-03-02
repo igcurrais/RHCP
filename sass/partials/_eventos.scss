@@ -1,8 +1,7 @@
+@import "variables";
 .cartas1{
-    display: flex;
-    flex-direction: row;
+    @include flex(row,none,center);
     background-color: black;
-    justify-content: center;
     .card{
         margin: 2rem;
         border: 2px solid white;

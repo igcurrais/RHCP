@@ -6,10 +6,7 @@
     background-image: url(../media/img1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    @include flex(column,center,center);
     h1{
         font-family: $fuenteTitulos;
         font-weight: 400;
