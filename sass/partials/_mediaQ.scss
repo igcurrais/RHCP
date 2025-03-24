@@ -1,5 +1,5 @@
 @import "variables";
-
+/*--------------MOBILE-------------------*/
 @media (max-width:500px){
     /*---------header----------*/
     .nav-link:hover{
@@ -73,4 +73,45 @@
             @extend .cantante;
         }
     }
+}
+/*----------TABLET-----------------*/
+@media (min-width:501px) and (max-width:950px){
+    /*-----header------*/
+    .nav-link:hover{
+        transform: none;
+    }
+    /*------------discografia------*/
+    .cajadiscografia{
+        flex-flow: row wrap;
+        .cajaalbum{
+            display: flex;
+            position: relative;
+            max-width: 300px;
+            max-height: 300px;
+            justify-content: center;
+            img{
+                max-width: 300px;
+                max-height: 300px;     
+            }
+            .audio{
+                width: 100%;
+                position: absolute;
+                bottom: 0%;
+            }
+            .texto{
+                position: absolute;
+                color: aliceblue;
+                font-family: $fuenteTitulos;
+                font-weight: 400;
+                background-color: rgba(12, 12, 12, 0.5 );
+                top: 30%;
+            }   
+        }
+    }
+    /*---------integrantes------------*/
+    .contenedor-historia{
+        flex-flow: row wrap;
+        padding: 0%;
+    }
+
 }
